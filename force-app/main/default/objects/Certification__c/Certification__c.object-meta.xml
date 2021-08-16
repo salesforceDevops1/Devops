@@ -155,7 +155,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Certification</label>
     <nameField>
-        <label>CertificationName</label>
+        <label>Certification Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
