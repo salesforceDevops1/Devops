@@ -17,8 +17,8 @@ node {
     println SFDC_HOST
     println CONNECTED_APP_CONSUMER_KEY
     
-    def toolbelt = env.SFDX_ENV
-	
+    def toolbelt = tool 'toolbelt'
+
     
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
