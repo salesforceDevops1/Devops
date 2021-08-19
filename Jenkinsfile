@@ -18,7 +18,7 @@ node {
     println CONNECTED_APP_CONSUMER_KEY
     println " auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG}  --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
 
-    def toolbelt = 'C:\"Program Files"\"Salesforce CLI"\bin\sfdx'
+    def toolbelt = "C:\Program Files\Salesforce CLI\bin\sfdx'
 	
     
     stage('checkout source') {
