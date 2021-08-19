@@ -35,7 +35,7 @@ node {
 		    bat "${toolbelt} update"
 		    //bat "${toolbelt} auth:logout -u ${HUB_ORG} -p" 
 		 
-		    rc = bat returnStatus: true, script: "${toolbelt} force:config:set defaultusername=test-jbgegz1wjcsi@example.com"
+		    // rc = bat returnStatus: true, script: "${toolbelt} force:config:set defaultusername=test-jbgegz1wjcsi@example.com"
                  
 		    rc = bat returnStatus: true, script: "${toolbelt} auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${jwt_key_file} --loglevel DEBUG --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
             }
