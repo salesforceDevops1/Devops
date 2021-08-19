@@ -16,8 +16,7 @@ node {
     println HUB_ORG
     println SFDC_HOST
     println CONNECTED_APP_CONSUMER_KEY
-    println " auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG}  --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
-
+    
     def toolbelt = env.SFDX_ENV
 	
     
